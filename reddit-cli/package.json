@@ -1,0 +1,19 @@
+{
+  "name": "reddit-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reddit": "./reddit.mjs"
+  },
+  "author": "Ravi Deevan <ravideevan@duck.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "open": "^8.4.0",
+    "yargs": "^17.6.2"
+  }
+}
